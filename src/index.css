@@ -1,13 +1,125 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.main_todo {
+  width: 300px;
+  height: 450px;
+  background-color: #204957;
+  border-radius: 14px;
+  margin: auto;
+  margin-top: 95px;
+  box-shadow: 1px 8px 39px 14px #d9d6d6;
+}
+.todo_heading {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.main_todo input {
+  margin-left: 46px;
+  height: 30px;
+  outline: none;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  width: 60%;
+  color: white;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.main_todo .btn {
+  border-radius: 50%;
+  margin-left: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+  background-color: blue;
+  color: white;
+  box-shadow: 1px 1px 6px 0px black;
+}
+.ulof li {
+  cursor: pointer;
+  border-radius: 9px;
+}
+.btned {
+  border-radius: 50%;
+  margin-left: 239px;
+  border: none;
+  margin-top: 23px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 41px;
+  height: 41px;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+  background-color: blue;
+  color: white;
+  box-shadow: 1px 1px 6px 0px black;
+}
+.main_todo ol li {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  list-style: none;
+  margin-left: 34px;
+  margin-bottom: 3px;
+}
+.main_todo .btn:hover {
+  background-color: green;
+  color: white;
+}
+.setLiBtn {
+  display: flex;
+  text-align: center;
+  margin: 5px;
+}
+.setLiBtn .btndlt {
+  border-radius: 50%;
+  background-color: #b32a2a;
+  border: 1px solid #b32a2a;
+  outline: none;
+  margin: 3px;
+  color: white;
+  padding: 1px;
+  width: 25px;
+  cursor: pointer;
+  position: fixed;
+  height: 26px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btnedit {
+  border-radius: 50%;
+  background-color: #a0940b;
+  border: 1px solid #a0940b;
+  outline: none;
+  color: white;
+  padding: 1px;
+  width: 25px;
+  cursor: pointer;
+  position: fixed;
+  height: 26px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 3px;
+  margin-left: 200px;
 }
